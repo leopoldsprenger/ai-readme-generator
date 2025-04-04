@@ -22,21 +22,18 @@ To get started with the ai-readme-generator, follow these steps:
    ```
 3. Install the required dependencies:
    ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
 ## Usage
 
-To generate a README file, you can use the provided binary files. Here are some examples:
+To generate a README file, simply run the main script:
 
-- To generate a README file based on your project details, run:
-  ```bash
-  ./generate-readme.sh
-  ```
-- If you want to customize the output, you can use:
-  ```bash
-  ./custom-readme-generator.py --input your_project_info.json
-  ```
+```bash
+python main.py
+```
+
+This command will initiate the application, and a chat window will pop up, guiding you through the process of generating your README file.
 
 **Warning:** Please note that the AI might take some time to generate responses, depending on the complexity of the input data.
 
